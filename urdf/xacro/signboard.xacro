@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="gimbal_structure_simulation">
+  
+  <!-- 定义world link（通常不需要inertial属性） -->
+  <link name="world"/>
+  
+  <!-- 定义root_link -->
+  <link name="root_link">
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+  <!-- 固定关节：绑定world和root_link，无相对运动 -->
+  <joint name="world_to_root_joint" type="fixed">
+    <parent link="world"/>  
+    <child link="root_link"/> 
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <!-- 5 10 15 20 25 30 -->
+  <!-- -0.087266  0.1745329 0.261799 0.3490658 0.4363323 0.5235987 -->
+  <!-- 40度是0.698131688 ,50度是0.872664611-->
+  <!-- rpy对应 翻转 fuyang shuiping -->
+  <!-- 1. 新增过渡link（用于串联两个关节） -->
+  <link name="low_link">
+    <inertial>
+      <mass value="0.01"/> 
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+  <link name="high_link">
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <!-- 2. 第一个关节：绕z轴旋转 -->
+  <joint name="root_to_low_joint" type="revolute">
+    <parent link="root_link"/>
+    <child link="low_link"/>
+    <origin xyz="0 0 0.115" rpy="0 0 0"/> <!-- 初始位置 -->
+    <axis xyz="0 0 1"/> <!-- 绕z轴 -->
+    <limit lower="-3.1415926" upper="3.1415926" effort="100" velocity="10"/> 
+  </joint>
+
+  <!-- 3. 第二个关节：绕Z轴旋转 -->
+  <joint name="low_to_high_joint" type="revolute">
+    <parent link="low_link"/>
+    <child link="high_link"/>
+    <origin xyz="0 0 0.222" rpy="0 0 0"/> 
+    <axis xyz="0 1 0"/> <!-- 绕y轴 -->
+    <limit lower="-3.1415926" upper="3.1415926" effort="100" velocity="10"/> 
+  </joint>
+
+
+  <!-- 4. 为两个关节分别添加transmission（供Gazebo控制） -->
+  <!-- 1. world_to_mid_joint的transmission（适配位置控制器） -->
+  <transmission name="root_to_low_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="root_to_low_joint">
+      <!-- 硬件接口改为位置接口，与position_controllers匹配 -->
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="root_to_low_motor">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <!-- 2. mid_to_root_joint的transmission（适配位置控制器） -->
+  <transmission name="low_to_high_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="low_to_high_joint">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="low_to_high_motor">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <link name="base_link">
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_high_joint" type="fixed">
+    <parent link="high_link"/>
+    <child link="base_link"/>
+    <!-- <origin xyz="0.1 0.2 0.337" rpy="0.1745329 0 0.1745329"/> -->
+    <origin xyz="0.2 0.1 0.15" rpy="0 0 0"/>
+  </joint>
+
+  <!-- 导入Velodyne雷达的宏定义 -->
+  <xacro:include filename="$(find velodyne_description)/urdf/HDL-32E.urdf.xacro" />
+
+  <!-- 放置雷达 -->
+  <xacro:HDL-32E parent="base_link" name="velodyne1" topic="/points_raw1" hz="10" samples="775" lasers="500"
+  min_range="0.5" max_range="7.0" noise="0.00" min_angle="-1.0471975" max_angle="1.0471975"
+   vertical_min_angle="-1.0471975" vertical_max_angle="1.0471975" gpu="true">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:HDL-32E>
+
+<!-- 启动ros_control与Gazebo的接口，用于加载controller_manager -->
+<gazebo>
+  <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <!-- 可选：设置机器人名称（与模型名称一致） -->
+    <robotNamespace>/</robotNamespace>
+  </plugin>
+</gazebo>
+
+</robot>

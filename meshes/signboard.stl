@@ -1,0 +1,1332 @@
+solid 老标识板 - tesselated.section
+facet normal -5.6818 -17.4169 -1.62125e-05
+outer loop
+vertex 169.01 54.7486 22.594
+vertex 170 54.4256 25
+vertex 161.771 57.1101 22.594
+endloop
+endfacet
+facet normal -6.4588 -19.7987 0
+outer loop
+vertex 170 54.4256 25
+vertex 161.771 57.1101 25
+vertex 161.771 57.1101 22.594
+endloop
+endfacet
+facet normal -0.777 -2.38178 0
+outer loop
+vertex 170 54.4256 25
+vertex 169.01 54.7486 22.594
+vertex 170 54.4256 22.594
+endloop
+endfacet
+facet normal -7.16665 -16.8603 9.05991e-06
+outer loop
+vertex 160.813 57.5174 22.594
+vertex 161.771 57.1101 25
+vertex 153.805 60.496 22.594
+endloop
+endfacet
+facet normal -8.1467 -19.166 0
+outer loop
+vertex 161.771 57.1101 25
+vertex 153.805 60.496 25
+vertex 153.805 60.496 22.594
+endloop
+endfacet
+facet normal -0.98005 -2.30568 0
+outer loop
+vertex 161.771 57.1101 25
+vertex 160.813 57.5174 22.594
+vertex 161.771 57.1101 22.594
+endloop
+endfacet
+facet normal -8.5978 -16.1774 -2.5034e-05
+outer loop
+vertex 152.886 60.9847 22.594
+vertex 153.805 60.496 25
+vertex 146.162 64.5582 22.594
+endloop
+endfacet
+facet normal -9.77357 -18.3897 0
+outer loop
+vertex 153.805 60.496 25
+vertex 146.162 64.5582 25
+vertex 146.162 64.5582 22.594
+endloop
+endfacet
+facet normal -1.17577 -2.21228 0
+outer loop
+vertex 153.805 60.496 25
+vertex 152.886 60.9847 22.594
+vertex 153.805 60.496 22.594
+endloop
+endfacet
+facet normal -11.2566 -14.4541 0
+outer loop
+vertex 138.899 69.2661 22.594
+vertex 138.899 69.2661 25
+vertex 132.891 73.9446 22.594
+endloop
+endfacet
+facet normal -12.796 -16.4307 1.71661e-05
+outer loop
+vertex 138.899 69.2661 25
+vertex 132.07 74.5844 25
+vertex 132.891 73.9446 22.594
+endloop
+endfacet
+facet normal -9.96453 -15.3733 -9.53674e-06
+outer loop
+vertex 145.288 65.1245 22.594
+vertex 146.162 64.5582 25
+vertex 138.899 69.2661 22.594
+endloop
+endfacet
+facet normal -11.3272 -17.4756 0
+outer loop
+vertex 146.162 64.5582 25
+vertex 138.899 69.2661 25
+vertex 138.899 69.2661 22.594
+endloop
+endfacet
+facet normal -1.36267 -2.10232 0
+outer loop
+vertex 146.162 64.5582 25
+vertex 145.288 65.1245 22.594
+vertex 146.162 64.5582 22.594
+endloop
+endfacet
+facet normal -1.53937 -1.97662 0
+outer loop
+vertex 132.07 74.5844 25
+vertex 132.07 74.5844 22.594
+vertex 132.891 73.9446 22.594
+endloop
+endfacet
+facet normal -13.5787 -12.2983 0
+outer loop
+vertex 125.726 80.4733 22.594
+vertex 125.726 80.4733 25
+vertex 120.615 86.117 22.594
+endloop
+endfacet
+facet normal -15.4356 -13.9801 7.62939e-06
+outer loop
+vertex 125.726 80.4733 25
+vertex 119.916 86.8888 25
+vertex 120.615 86.117 22.594
+endloop
+endfacet
+facet normal -12.4644 -13.4265 -2.24113e-05
+outer loop
+vertex 131.307 75.2928 22.594
+vertex 132.07 74.5844 25
+vertex 125.726 80.4733 22.594
+endloop
+endfacet
+facet normal -14.1689 -15.2626 0
+outer loop
+vertex 132.07 74.5844 25
+vertex 125.726 80.4733 25
+vertex 125.726 80.4733 22.594
+endloop
+endfacet
+facet normal -1.70452 -1.83608 0
+outer loop
+vertex 132.07 74.5844 25
+vertex 131.307 75.2928 22.594
+vertex 132.07 74.5844 22.594
+endloop
+endfacet
+facet normal -1.85692 -1.68182 0
+outer loop
+vertex 119.916 86.8888 25
+vertex 119.916 86.8888 22.594
+vertex 120.615 86.117 22.594
+endloop
+endfacet
+facet normal -14.5914 -11.078 -1.69277e-05
+outer loop
+vertex 119.286 87.7181 22.594
+vertex 119.916 86.8888 25
+vertex 114.682 93.7827 22.594
+endloop
+endfacet
+facet normal -16.5868 -12.593 0
+outer loop
+vertex 119.916 86.8888 25
+vertex 114.682 93.7827 25
+vertex 114.682 93.7827 22.594
+endloop
+endfacet
+facet normal -1.9954 -1.51494 0
+outer loop
+vertex 119.916 86.8888 25
+vertex 119.286 87.7181 22.594
+vertex 119.916 86.8888 22.594
+endloop
+endfacet
+facet normal -15.4947 -9.77472 2.07424e-05
+outer loop
+vertex 114.126 94.6633 22.594
+vertex 114.682 93.7827 25
+vertex 110.064 101.103 22.594
+endloop
+endfacet
+facet normal -17.6136 -11.1114 0
+outer loop
+vertex 114.682 93.7827 25
+vertex 110.064 101.103 25
+vertex 110.064 101.103 22.594
+endloop
+endfacet
+facet normal -2.11892 -1.33671 0
+outer loop
+vertex 114.682 93.7827 25
+vertex 114.126 94.6633 22.594
+vertex 114.682 93.7827 22.594
+endloop
+endfacet
+facet normal -16.2819 -8.39823 -7.39098e-06
+outer loop
+vertex 109.586 102.029 22.594
+vertex 110.064 101.103 25
+vertex 106.096 108.796 22.594
+endloop
+endfacet
+facet normal -18.5085 -9.5467 0
+outer loop
+vertex 110.064 101.103 25
+vertex 106.096 108.796 25
+vertex 106.096 108.796 22.594
+endloop
+endfacet
+facet normal -2.22658 -1.14847 0
+outer loop
+vertex 110.064 101.103 25
+vertex 109.586 102.029 22.594
+vertex 110.064 101.103 22.594
+endloop
+endfacet
+facet normal -17.4854 -5.46719 0
+outer loop
+vertex 102.808 116.803 22.594
+vertex 102.808 116.803 25
+vertex 100.536 124.07 22.594
+endloop
+endfacet
+facet normal -19.8766 -6.21484 -3.05176e-05
+outer loop
+vertex 102.808 116.803 25
+vertex 100.225 125.064 25
+vertex 100.536 124.07 22.594
+endloop
+endfacet
+facet normal -16.9472 -6.95877 2.81334e-05
+outer loop
+vertex 105.7 109.759 22.594
+vertex 106.096 108.796 25
+vertex 102.808 116.803 22.594
+endloop
+endfacet
+facet normal -19.2647 -7.91041 0
+outer loop
+vertex 106.096 108.796 25
+vertex 102.808 116.803 25
+vertex 102.808 116.803 22.594
+endloop
+endfacet
+facet normal -2.31755 -0.951634 0
+outer loop
+vertex 106.096 108.796 25
+vertex 105.7 109.759 22.594
+vertex 106.096 108.796 22.594
+endloop
+endfacet
+facet normal -2.39116 -0.747657 0
+outer loop
+vertex 100.225 125.064 25
+vertex 100.225 125.064 22.594
+vertex 100.536 124.07 22.594
+endloop
+endfacet
+facet normal -17.8927 -3.93466 3.37362e-05
+outer loop
+vertex 100.001 126.081 22.594
+vertex 100.225 125.064 25
+vertex 98.366 133.518 22.594
+endloop
+endfacet
+facet normal -20.3396 -4.47274 0
+outer loop
+vertex 100.225 125.064 25
+vertex 98.366 133.518 25
+vertex 98.366 133.518 22.594
+endloop
+endfacet
+facet normal -2.44686 -0.538082 0
+outer loop
+vertex 100.225 125.064 25
+vertex 100.001 126.081 22.594
+vertex 100.225 125.064 22.594
+endloop
+endfacet
+facet normal -18.1659 -2.37266 1.28746e-05
+outer loop
+vertex 98.2311 134.55 22.594
+vertex 98.366 133.518 25
+vertex 97.245 142.1 22.594
+endloop
+endfacet
+facet normal -20.6501 -2.69713 0
+outer loop
+vertex 98.366 133.518 25
+vertex 97.245 142.1 25
+vertex 97.245 142.1 22.594
+endloop
+endfacet
+facet normal -2.48421 -0.324468 0
+outer loop
+vertex 98.366 133.518 25
+vertex 98.2311 134.55 22.594
+vertex 98.366 133.518 22.594
+endloop
+endfacet
+facet normal -18.3031 -0.792851 2.5183e-05
+outer loop
+vertex 97.1999 143.141 22.594
+vertex 97.245 142.1 25
+vertex 96.8704 150.748 22.594
+endloop
+endfacet
+facet normal -20.8061 -0.901282 0
+outer loop
+vertex 97.245 142.1 25
+vertex 96.8704 150.748 25
+vertex 96.8704 150.748 22.594
+endloop
+endfacet
+facet normal -2.50297 -0.108431 0
+outer loop
+vertex 97.245 142.1 25
+vertex 97.1999 143.141 22.594
+vertex 97.245 142.1 22.594
+endloop
+endfacet
+facet normal 105.828 0 0
+outer loop
+vertex 250 173.985 22.594
+vertex 250 180 25
+vertex 250 130 22.594
+endloop
+endfacet
+facet normal 120.301 0 0
+outer loop
+vertex 250 180 25
+vertex 250 130 25
+vertex 250 130 22.594
+endloop
+endfacet
+facet normal 14.4722 0 0
+outer loop
+vertex 250 180 25
+vertex 250 173.985 22.594
+vertex 250 180 22.594
+endloop
+endfacet
+facet normal 0 135.702 0
+outer loop
+vertex 143.599 230 22.594
+vertex 135.886 230 25
+vertex 200 230 22.594
+endloop
+endfacet
+facet normal 0 154.259 0
+outer loop
+vertex 135.886 230 25
+vertex 200 230 25
+vertex 200 230 22.594
+endloop
+endfacet
+facet normal 0 18.5575 0
+outer loop
+vertex 135.886 230 25
+vertex 143.599 230 22.594
+vertex 135.886 230 22.594
+endloop
+endfacet
+facet normal 529.142 211.657 -0.000488281
+outer loop
+vertex 97.9699 -199.925 22.594
+vertex 10 20 22.594
+vertex 110 -230 25
+endloop
+endfacet
+facet normal 601.503 240.601 0
+outer loop
+vertex 110 -230 25
+vertex 10 20 22.594
+vertex 10 20 25
+endloop
+endfacet
+facet normal 72.3613 28.9445 0
+outer loop
+vertex 110 -230 25
+vertex 110 -230 22.594
+vertex 97.9699 -199.925 22.594
+endloop
+endfacet
+facet normal 0 148.16 0
+outer loop
+vertex 1.57895 20 22.594
+vertex -60 20 22.594
+vertex 10 20 25
+endloop
+endfacet
+facet normal 0 168.421 0
+outer loop
+vertex 10 20 25
+vertex -60 20 22.594
+vertex -60 20 25
+endloop
+endfacet
+facet normal 0 20.2612 0
+outer loop
+vertex 10 20 25
+vertex 10 20 22.594
+vertex 1.57895 20 22.594
+endloop
+endfacet
+facet normal -529.142 -211.657 -0.000244141
+outer loop
+vertex -47.9699 -10.0752 22.594
+vertex 40 -230 22.594
+vertex -60 20 25
+endloop
+endfacet
+facet normal -601.503 -240.601 0
+outer loop
+vertex -60 20 25
+vertex 40 -230 22.594
+vertex 40 -230 25
+endloop
+endfacet
+facet normal -72.3613 -28.9445 0
+outer loop
+vertex -60 20 25
+vertex -60 20 22.594
+vertex -47.9699 -10.0752 22.594
+endloop
+endfacet
+facet normal -72.3613 -28.9445 0
+outer loop
+vertex 180 -230 25
+vertex 167.97 -199.925 22.594
+vertex 180 -230 22.594
+endloop
+endfacet
+facet normal -529.142 -211.657 -0.00146484
+outer loop
+vertex 167.97 -199.925 22.594
+vertex 180 -230 25
+vertex 80 20 22.594
+endloop
+endfacet
+facet normal -601.503 -240.601 0
+outer loop
+vertex 180 -230 25
+vertex 80 20 25
+vertex 80 20 22.594
+endloop
+endfacet
+facet normal 529.142 211.657 0.00146484
+outer loop
+vertex 237.97 -199.925 22.594
+vertex 150 20 22.594
+vertex 250 -230 25
+endloop
+endfacet
+facet normal 601.503 240.601 0
+outer loop
+vertex 250 -230 25
+vertex 150 20 22.594
+vertex 150 20 25
+endloop
+endfacet
+facet normal 72.3613 28.9445 0
+outer loop
+vertex 250 -230 25
+vertex 250 -230 22.594
+vertex 237.97 -199.925 22.594
+endloop
+endfacet
+facet normal 0 148.16 0
+outer loop
+vertex 141.579 20 22.594
+vertex 80 20 22.594
+vertex 150 20 25
+endloop
+endfacet
+facet normal 0 168.421 0
+outer loop
+vertex 150 20 25
+vertex 80 20 22.594
+vertex 80 20 25
+endloop
+endfacet
+facet normal 0 20.2612 0
+outer loop
+vertex 150 20 25
+vertex 150 20 22.594
+vertex 141.579 20 22.594
+endloop
+endfacet
+facet normal -16.122 0.614904 0
+outer loop
+vertex 96.8704 150.748 22.594
+vertex 96.8704 150.748 25
+vertex 97.1259 157.449 22.594
+endloop
+endfacet
+facet normal -18.3267 0.698994 3.57628e-06
+outer loop
+vertex 96.8704 150.748 25
+vertex 97.1609 158.365 25
+vertex 97.1259 157.449 22.594
+endloop
+endfacet
+facet normal -2.20472 0.0840908 0
+outer loop
+vertex 97.1609 158.365 25
+vertex 97.1609 158.365 22.594
+vertex 97.1259 157.449 22.594
+endloop
+endfacet
+facet normal -15.8415 3.05666 0
+outer loop
+vertex 98.0308 165.938 22.594
+vertex 98.0308 165.938 25
+vertex 99.3012 172.522 22.594
+endloop
+endfacet
+facet normal -18.0079 3.47467 2.76566e-05
+outer loop
+vertex 98.0308 165.938 25
+vertex 99.4749 173.422 25
+vertex 99.3012 172.522 22.594
+endloop
+endfacet
+facet normal -16.0283 1.84113 4.41074e-06
+outer loop
+vertex 97.2655 159.276 22.594
+vertex 97.1609 158.365 25
+vertex 98.0308 165.938 22.594
+endloop
+endfacet
+facet normal -18.2202 2.09291 0
+outer loop
+vertex 97.1609 158.365 25
+vertex 98.0308 165.938 25
+vertex 98.0308 165.938 22.594
+endloop
+endfacet
+facet normal -2.1919 0.251777 0
+outer loop
+vertex 97.1609 158.365 25
+vertex 97.2655 159.276 22.594
+vertex 97.1609 158.365 22.594
+endloop
+endfacet
+facet normal -2.16635 0.418013 0
+outer loop
+vertex 99.4749 173.422 25
+vertex 99.4749 173.422 22.594
+vertex 99.3012 172.522 22.594
+endloop
+endfacet
+facet normal -15.5627 4.25445 8.70228e-06
+outer loop
+vertex 99.7167 174.307 22.594
+vertex 99.4749 173.422 25
+vertex 101.485 180.775 22.594
+endloop
+endfacet
+facet normal -17.6909 4.83626 0
+outer loop
+vertex 99.4749 173.422 25
+vertex 101.485 180.775 25
+vertex 101.485 180.775 22.594
+endloop
+endfacet
+facet normal -2.12824 0.581807 0
+outer loop
+vertex 99.4749 173.422 25
+vertex 99.7167 174.307 22.594
+vertex 99.4749 173.422 22.594
+endloop
+endfacet
+facet normal -14.7358 6.56901 0
+outer loop
+vertex 104.049 187.953 22.594
+vertex 104.049 187.953 25
+vertex 106.78 194.078 22.594
+endloop
+endfacet
+facet normal -16.751 7.46734 -1.14441e-05
+outer loop
+vertex 104.049 187.953 25
+vertex 107.153 194.916 25
+vertex 106.78 194.078 22.594
+endloop
+endfacet
+facet normal -15.1934 5.4275 -5.84126e-06
+outer loop
+vertex 101.793 181.639 22.594
+vertex 101.485 180.775 25
+vertex 104.049 187.953 22.594
+endloop
+endfacet
+facet normal -17.2711 6.16972 0
+outer loop
+vertex 101.485 180.775 25
+vertex 104.049 187.953 25
+vertex 104.049 187.953 22.594
+endloop
+endfacet
+facet normal -2.07773 0.742224 0
+outer loop
+vertex 101.485 180.775 25
+vertex 101.793 181.639 22.594
+vertex 101.485 180.775 22.594
+endloop
+endfacet
+facet normal -2.01517 0.898327 0
+outer loop
+vertex 107.153 194.916 25
+vertex 107.153 194.916 22.594
+vertex 106.78 194.078 22.594
+endloop
+endfacet
+facet normal -14.1926 7.67238 -2.12193e-05
+outer loop
+vertex 107.589 195.722 22.594
+vertex 107.153 194.916 25
+vertex 110.778 201.621 22.594
+endloop
+endfacet
+facet normal -16.1335 8.7216 0
+outer loop
+vertex 107.153 194.916 25
+vertex 110.778 201.621 25
+vertex 110.778 201.621 22.594
+endloop
+endfacet
+facet normal -1.94086 1.04922 0
+outer loop
+vertex 107.153 194.916 25
+vertex 107.589 195.722 22.594
+vertex 107.153 194.916 22.594
+endloop
+endfacet
+facet normal -13.567 8.73114 2.40803e-05
+outer loop
+vertex 111.274 202.392 22.594
+vertex 110.778 201.621 25
+vertex 114.903 208.031 22.594
+endloop
+endfacet
+facet normal -15.4223 9.92514 0
+outer loop
+vertex 110.778 201.621 25
+vertex 114.903 208.031 25
+vertex 114.903 208.031 22.594
+endloop
+endfacet
+facet normal -1.85532 1.19399 0
+outer loop
+vertex 110.778 201.621 25
+vertex 111.274 202.392 22.594
+vertex 110.778 201.621 22.594
+endloop
+endfacet
+facet normal -12.8626 9.73919 1.28746e-05
+outer loop
+vertex 115.456 208.762 22.594
+vertex 114.903 208.031 25
+vertex 119.504 214.108 22.594
+endloop
+endfacet
+facet normal -14.6216 11.071 0
+outer loop
+vertex 114.903 208.031 25
+vertex 119.504 214.108 25
+vertex 119.504 214.108 22.594
+endloop
+endfacet
+facet normal -1.75899 1.33185 0
+outer loop
+vertex 114.903 208.031 25
+vertex 115.456 208.762 22.594
+vertex 114.903 208.031 22.594
+endloop
+endfacet
+facet normal -11.2339 11.58 0
+outer loop
+vertex 124.555 219.817 22.594
+vertex 124.555 219.817 25
+vertex 129.368 224.486 22.594
+endloop
+endfacet
+facet normal -12.7702 13.1636 3.8147e-06
+outer loop
+vertex 124.555 219.817 25
+vertex 130.026 225.125 25
+vertex 129.368 224.486 22.594
+endloop
+endfacet
+facet normal -12.0833 10.6906 -1.14441e-05
+outer loop
+vertex 120.112 214.795 22.594
+vertex 119.504 214.108 25
+vertex 124.555 219.817 22.594
+endloop
+endfacet
+facet normal -13.7357 12.1526 0
+outer loop
+vertex 119.504 214.108 25
+vertex 124.555 219.817 25
+vertex 124.555 219.817 22.594
+endloop
+endfacet
+facet normal -1.65241 1.46196 0
+outer loop
+vertex 119.504 214.108 25
+vertex 120.112 214.795 22.594
+vertex 119.504 214.108 22.594
+endloop
+endfacet
+facet normal -1.53625 1.58357 0
+outer loop
+vertex 130.026 225.125 25
+vertex 130.026 225.125 22.594
+vertex 129.368 224.486 22.594
+endloop
+endfacet
+facet normal -10.3192 12.402 1.07288e-05
+outer loop
+vertex 130.731 225.711 22.594
+vertex 130.026 225.125 25
+vertex 135.886 230 22.594
+endloop
+endfacet
+facet normal -11.7304 14.098 0
+outer loop
+vertex 130.026 225.125 25
+vertex 135.886 230 25
+vertex 135.886 230 22.594
+endloop
+endfacet
+facet normal -1.41117 1.69599 0
+outer loop
+vertex 130.026 225.125 25
+vertex 130.731 225.711 22.594
+vertex 130.026 225.125 22.594
+endloop
+endfacet
+facet normal 159.958 0 0
+outer loop
+vertex 170 120.908 22.594
+vertex 170 130 25
+vertex 170 54.4256 22.594
+endloop
+endfacet
+facet normal 181.833 0 0
+outer loop
+vertex 170 130 25
+vertex 170 54.4256 25
+vertex 170 54.4256 22.594
+endloop
+endfacet
+facet normal 21.8746 0 0
+outer loop
+vertex 170 130 25
+vertex 170 120.908 22.594
+vertex 170 130 22.594
+endloop
+endfacet
+facet normal 0 -169.325 0
+outer loop
+vertex 240.376 130 22.594
+vertex 250 130 25
+vertex 170 130 22.594
+endloop
+endfacet
+facet normal 0 -192.481 0
+outer loop
+vertex 250 130 25
+vertex 170 130 25
+vertex 170 130 22.594
+endloop
+endfacet
+facet normal 0 -23.1556 0
+outer loop
+vertex 250 130 25
+vertex 240.376 130 22.594
+vertex 250 130 22.594
+endloop
+endfacet
+facet normal 0 14.4722 0
+outer loop
+vertex 250 180 25
+vertex 250 180 22.594
+vertex 243.985 180 22.594
+endloop
+endfacet
+facet normal 0 105.828 0
+outer loop
+vertex 243.985 180 22.594
+vertex 200 180 22.594
+vertex 250 180 25
+endloop
+endfacet
+facet normal 0 120.301 0
+outer loop
+vertex 250 180 25
+vertex 200 180 22.594
+vertex 200 180 25
+endloop
+endfacet
+facet normal 105.828 0 0
+outer loop
+vertex 200 230 22.594
+vertex 200 230 25
+vertex 200 186.015 22.594
+endloop
+endfacet
+facet normal 120.301 0 0
+outer loop
+vertex 200 230 25
+vertex 200 180 25
+vertex 200 186.015 22.594
+endloop
+endfacet
+facet normal 14.4722 0 0
+outer loop
+vertex 200 180 25
+vertex 200 180 22.594
+vertex 200 186.015 22.594
+endloop
+endfacet
+facet normal -244.859 -81.4979 0.000732422
+outer loop
+vertex -208.945 161.397 22.594
+vertex -175.072 59.6276 22.594
+vertex -213.577 175.314 25
+endloop
+endfacet
+facet normal -278.344 -92.6429 0
+outer loop
+vertex -213.577 175.314 25
+vertex -175.072 59.6276 22.594
+vertex -175.072 59.6276 25
+endloop
+endfacet
+facet normal -33.4849 -11.145 0
+outer loop
+vertex -213.577 175.314 25
+vertex -213.577 175.314 22.594
+vertex -208.945 161.397 22.594
+endloop
+endfacet
+facet normal -11.5563 34.7206 1.81198e-05
+outer loop
+vertex -177.046 58.9708 22.594
+vertex -191.477 54.1677 22.594
+vertex -175.072 59.6276 25
+endloop
+endfacet
+facet normal -13.1366 39.4687 0
+outer loop
+vertex -175.072 59.6276 25
+vertex -191.477 54.1677 22.594
+vertex -191.477 54.1677 25
+endloop
+endfacet
+facet normal -1.58034 4.74811 0
+outer loop
+vertex -175.072 59.6276 25
+vertex -175.072 59.6276 22.594
+vertex -177.046 58.9708 22.594
+endloop
+endfacet
+facet normal -21.5845 -7.18412 0
+outer loop
+vertex -191.477 54.1677 25
+vertex -191.477 54.1677 22.594
+vertex -188.491 45.1966 22.594
+endloop
+endfacet
+facet normal -157.837 -52.5339 0
+outer loop
+vertex -166.656 -20.4044 22.594
+vertex -166.656 -20.4044 25
+vertex -188.491 45.1966 22.594
+endloop
+endfacet
+facet normal -179.422 -59.718 0
+outer loop
+vertex -166.656 -20.4044 25
+vertex -191.477 54.1677 25
+vertex -188.491 45.1966 22.594
+endloop
+endfacet
+facet normal 27.7418 -37.7934 0
+outer loop
+vertex -166.656 -20.4044 25
+vertex -166.656 -20.4044 22.594
+vertex -150.948 -8.87423 22.594
+endloop
+endfacet
+facet normal 202.862 -276.364 0
+outer loop
+vertex -36.0844 75.4404 22.594
+vertex -36.0844 75.4404 25
+vertex -150.948 -8.87423 22.594
+endloop
+endfacet
+facet normal 230.604 -314.158 0
+outer loop
+vertex -36.0844 75.4404 25
+vertex -166.656 -20.4044 25
+vertex -150.948 -8.87423 22.594
+endloop
+endfacet
+facet normal 44.7365 61.9168 0
+outer loop
+vertex -250 230 25
+vertex -224.266 211.406 22.594
+vertex -250 230 22.594
+endloop
+endfacet
+facet normal 327.136 452.767 0.000732422
+outer loop
+vertex -224.266 211.406 22.594
+vertex -250 230 25
+vertex -36.0844 75.4404 22.594
+endloop
+endfacet
+facet normal 371.872 514.684 0
+outer loop
+vertex -250 230 25
+vertex -36.0844 75.4404 25
+vertex -36.0844 75.4404 22.594
+endloop
+endfacet
+facet normal -17.4088 -5.79432 0
+outer loop
+vertex -229.981 169.854 25
+vertex -232.39 177.09 22.594
+vertex -229.981 169.854 22.594
+endloop
+endfacet
+facet normal -127.302 -42.3708 0.000541687
+outer loop
+vertex -232.39 177.09 22.594
+vertex -229.981 169.854 25
+vertex -250 230 22.594
+endloop
+endfacet
+facet normal -144.711 -48.1651 0
+outer loop
+vertex -229.981 169.854 25
+vertex -250 230 25
+vertex -250 230 22.594
+endloop
+endfacet
+facet normal 11.5563 -34.7206 3.33786e-05
+outer loop
+vertex -228.008 170.511 22.594
+vertex -213.577 175.314 22.594
+vertex -229.981 169.854 25
+endloop
+endfacet
+facet normal 13.1366 -39.4687 0
+outer loop
+vertex -229.981 169.854 25
+vertex -213.577 175.314 22.594
+vertex -213.577 175.314 25
+endloop
+endfacet
+facet normal 1.58034 -4.74811 0
+outer loop
+vertex -229.981 169.854 25
+vertex -229.981 169.854 22.594
+vertex -228.008 170.511 22.594
+endloop
+endfacet
+facet normal 57.889 28.9445 0
+outer loop
+vertex -100 -30 25
+vertex -87.9699 -54.0601 22.594
+vertex -100 -30 22.594
+endloop
+endfacet
+facet normal 423.314 211.657 0
+outer loop
+vertex -87.9699 -54.0601 22.594
+vertex -100 -30 25
+vertex -1.38778e-14 -230 22.594
+endloop
+endfacet
+facet normal 481.203 240.601 0
+outer loop
+vertex -100 -30 25
+vertex -1.38778e-14 -230 25
+vertex -1.38778e-14 -230 22.594
+endloop
+endfacet
+facet normal 0 43.4168 0
+outer loop
+vertex -100 -30 25
+vertex -100 -30 22.594
+vertex -118.045 -30 22.594
+endloop
+endfacet
+facet normal 0 317.485 0
+outer loop
+vertex -118.045 -30 22.594
+vertex -250 -30 22.594
+vertex -100 -30 25
+endloop
+endfacet
+facet normal 0 360.902 0
+outer loop
+vertex -100 -30 25
+vertex -250 -30 22.594
+vertex -250 -30 25
+endloop
+endfacet
+facet normal -28.9445 -43.4168 0
+outer loop
+vertex -100 -230 25
+vertex -118.045 -217.97 22.594
+vertex -100 -230 22.594
+endloop
+endfacet
+facet normal -211.657 -317.485 0
+outer loop
+vertex -250 -130 22.594
+vertex -118.045 -217.97 22.594
+vertex -250 -130 25
+endloop
+endfacet
+facet normal -240.601 -360.902 0.00195313
+outer loop
+vertex -250 -130 25
+vertex -118.045 -217.97 22.594
+vertex -100 -230 25
+endloop
+endfacet
+facet normal 0 0 17500
+outer loop
+vertex 10 20 25
+vertex -60 20 25
+vertex 40 -230 25
+endloop
+endfacet
+facet normal 0 0 17500
+outer loop
+vertex 10 20 25
+vertex 40 -230 25
+vertex 110 -230 25
+endloop
+endfacet
+facet normal 0 0 17500
+outer loop
+vertex 150 20 25
+vertex 80 20 25
+vertex 180 -230 25
+endloop
+endfacet
+facet normal 0 0 17500
+outer loop
+vertex 150 20 25
+vertex 180 -230 25
+vertex 250 -230 25
+endloop
+endfacet
+facet normal 0 0 622.024
+outer loop
+vertex 170 130 25
+vertex 104.049 187.953 25
+vertex 101.485 180.775 25
+endloop
+endfacet
+facet normal 0 0 605.837
+outer loop
+vertex 170 130 25
+vertex 101.485 180.775 25
+vertex 99.4749 173.422 25
+endloop
+endfacet
+facet normal 0 0 590.556
+outer loop
+vertex 170 130 25
+vertex 99.4749 173.422 25
+vertex 98.0308 165.938 25
+endloop
+endfacet
+facet normal 0 0 576.269
+outer loop
+vertex 170 130 25
+vertex 98.0308 165.938 25
+vertex 97.1609 158.365 25
+endloop
+endfacet
+facet normal 0 0 563.059
+outer loop
+vertex 170 130 25
+vertex 97.1609 158.365 25
+vertex 96.8704 150.748 25
+endloop
+endfacet
+facet normal 0 0 624.618
+outer loop
+vertex 170 130 25
+vertex 96.8704 150.748 25
+vertex 97.245 142.1 25
+endloop
+endfacet
+facet normal 0 0 610.871
+outer loop
+vertex 170 130 25
+vertex 97.245 142.1 25
+vertex 98.366 133.518 25
+endloop
+endfacet
+facet normal 0 0 599.029
+outer loop
+vertex 170 130 25
+vertex 98.366 133.518 25
+vertex 100.225 125.064 25
+endloop
+endfacet
+facet normal 0 0 589.177
+outer loop
+vertex 170 130 25
+vertex 100.225 125.064 25
+vertex 102.808 116.803 25
+endloop
+endfacet
+facet normal 0 0 581.389
+outer loop
+vertex 170 130 25
+vertex 102.808 116.803 25
+vertex 106.096 108.796 25
+endloop
+endfacet
+facet normal 0 0 575.724
+outer loop
+vertex 170 130 25
+vertex 106.096 108.796 25
+vertex 110.064 101.103 25
+endloop
+endfacet
+facet normal 0 0 572.224
+outer loop
+vertex 170 130 25
+vertex 110.064 101.103 25
+vertex 114.682 93.7827 25
+endloop
+endfacet
+facet normal 0 0 570.917
+outer loop
+vertex 170 130 25
+vertex 114.682 93.7827 25
+vertex 119.916 86.8888 25
+endloop
+endfacet
+facet normal 0 0 571.81
+outer loop
+vertex 170 130 25
+vertex 119.916 86.8888 25
+vertex 125.726 80.4733 25
+endloop
+endfacet
+facet normal 0 0 574.898
+outer loop
+vertex 170 130 25
+vertex 125.726 80.4733 25
+vertex 132.07 74.5844 25
+endloop
+endfacet
+facet normal 0 0 580.16
+outer loop
+vertex 170 130 25
+vertex 132.07 74.5844 25
+vertex 138.899 69.2661 25
+endloop
+endfacet
+facet normal 0 0 587.55
+outer loop
+vertex 170 130 25
+vertex 138.899 69.2661 25
+vertex 146.162 64.5582 25
+endloop
+endfacet
+facet normal 0 0 597.02
+outer loop
+vertex 170 130 25
+vertex 146.162 64.5582 25
+vertex 153.805 60.496 25
+endloop
+endfacet
+facet normal 0 0 608.494
+outer loop
+vertex 170 130 25
+vertex 153.805 60.496 25
+vertex 161.771 57.1101 25
+endloop
+endfacet
+facet normal 0 0 621.888
+outer loop
+vertex 170 130 25
+vertex 161.771 57.1101 25
+vertex 170 54.4256 25
+endloop
+endfacet
+facet normal 0 0 639.023
+outer loop
+vertex 107.153 194.916 25
+vertex 104.049 187.953 25
+vertex 170 130 25
+endloop
+endfacet
+facet normal 0 0 605.561
+outer loop
+vertex 200 180 25
+vertex 135.886 230 25
+vertex 130.026 225.125 25
+endloop
+endfacet
+facet normal 0 0 618.274
+outer loop
+vertex 200 180 25
+vertex 130.026 225.125 25
+vertex 124.555 219.817 25
+endloop
+endfacet
+facet normal 0 0 631.821
+outer loop
+vertex 200 180 25
+vertex 124.555 219.817 25
+vertex 119.504 214.108 25
+endloop
+endfacet
+facet normal 0 0 646.124
+outer loop
+vertex 200 180 25
+vertex 119.504 214.108 25
+vertex 114.903 208.031 25
+endloop
+endfacet
+facet normal 0 0 661.096
+outer loop
+vertex 200 180 25
+vertex 114.903 208.031 25
+vertex 110.778 201.621 25
+endloop
+endfacet
+facet normal 0 0 676.653
+outer loop
+vertex 200 180 25
+vertex 110.778 201.621 25
+vertex 107.153 194.916 25
+endloop
+endfacet
+facet normal 0 0 5089.82
+outer loop
+vertex 200 180 25
+vertex 107.153 194.916 25
+vertex 170 130 25
+endloop
+endfacet
+facet normal 0 0 4000
+outer loop
+vertex 250 130 25
+vertex 200 180 25
+vertex 170 130 25
+endloop
+endfacet
+facet normal 0 0 3205.71
+outer loop
+vertex 200 230 25
+vertex 135.886 230 25
+vertex 200 180 25
+endloop
+endfacet
+facet normal 0 0 2500
+outer loop
+vertex 250 180 25
+vertex 200 180 25
+vertex 250 130 25
+endloop
+endfacet
+facet normal 0 0 1358.81
+outer loop
+vertex -175.072 59.6276 25
+vertex -191.477 54.1677 25
+vertex -166.656 -20.4044 25
+endloop
+endfacet
+facet normal 0 0 1095.94
+outer loop
+vertex -250 230 25
+vertex -229.981 169.854 25
+vertex -213.577 175.314 25
+endloop
+endfacet
+facet normal 0 0 16687.9
+outer loop
+vertex -36.0844 75.4404 25
+vertex -213.577 175.314 25
+vertex -175.072 59.6276 25
+endloop
+endfacet
+facet normal 0 0 11256.6
+outer loop
+vertex -36.0844 75.4404 25
+vertex -175.072 59.6276 25
+vertex -166.656 -20.4044 25
+endloop
+endfacet
+facet normal 0 0 6068.63
+outer loop
+vertex -36.0844 75.4404 25
+vertex -250 230 25
+vertex -213.577 175.314 25
+endloop
+endfacet
+facet normal 0 0 15000
+outer loop
+vertex -100 -30 25
+vertex -250 -30 25
+vertex -250 -130 25
+endloop
+endfacet
+facet normal 0 0 30000
+outer loop
+vertex -100 -30 25
+vertex -250 -130 25
+vertex -100 -230 25
+endloop
+endfacet
+facet normal 0 0 20000
+outer loop
+vertex -100 -30 25
+vertex -100 -230 25
+vertex -1.38778e-14 -230 25
+endloop
+endfacet
+endsolid 老标识板 - tesselated.section
