@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(gimbal_structure_simulation)
 
+# 强制指定C++源文件编码为UTF-8（解决中文日志乱码）
+if(CMAKE_COMPILER_IS_GNUCXX)
+  add_compile_options(-finput-charset=UTF-8)
+  add_compile_options(-fexec-charset=UTF-8)
+endif()
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 
@@ -140,7 +145,7 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/gimbal_structure_simulation_node.cpp)
-
+add_executable(joint_control src/joint_control.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -155,6 +160,7 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+target_link_libraries(joint_control ${catkin_LIBRARIES})
 
 #############
 ## Install ##
