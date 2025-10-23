@@ -3,7 +3,9 @@
 import rospy
 import tf2_ros
 import tf.transformations as tft  # 用于四元数转旋转矩阵
-
+"""
+功能: 获取source_link到target_link的旋转变换矩阵
+"""
 class LinkTransformDemo:
     def __init__(self):
         # 初始化ROS节点

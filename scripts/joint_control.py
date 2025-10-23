@@ -3,6 +3,9 @@ import math
 import time
 from std_msgs.msg import Float64
 
+"""
+功能: 控制云台结构，绕着两个轴旋转
+"""
 def angle_to_radian(angle_deg):
     """将角度（度）转换为弧度"""
     return math.radians(angle_deg)
