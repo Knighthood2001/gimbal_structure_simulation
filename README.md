@@ -32,18 +32,30 @@ roslaunch gimbal_structure_simulation gazebo.launch
 ```
 
 2. 控制云台结构
+以下中命令后面的数字，代表着水平转动的角度，垂直转动的角度。
 ```shell
 rosrun gimbal_structure_simulation joint_control.py
 ```
 当然你也可以直接使用以下命令来控制云台结构：
 
 ```shell
-python scripts/joint_control.py
+python scripts/joint_control.py 10 20
 ```
 
 ![Alt text](imgs/1.png)
 
-这里需要注意的是，在控制过程中，程序有时候只会控制一个轴进行旋转，你需要多运行几次（你可以通过置顶rviz中观察是否转动来确认）。
+这里也提供了C++版本的控制脚本`joint_control.cpp`，你可以根据自己的需求进行修改。
+```shell
+cd ~/catkin_ws  # 切换到你的工作空间
+# 仅编译你的云台功能包（避免全量编译）
+catkin_make -DCATKIN_WHITELIST_PACKAGES="gimbal_structure_simulation"
+# 重新激活环境
+source devel/setup.bash
+# 运行C++控制脚本
+rosrun gimbal_structure_simulation joint_control 10 20
+```
+
+**这里需要注意的是，在控制过程中，Python程序有时候只会控制一个轴进行旋转，你需要多运行几次（你可以通过置顶rviz中观察是否转动来确认）。**
 
 TODO：
-- 你需要修改`worlds/signboard.world`中的`uri`的路径为你自己的路径
+- 你需要修改`worlds/signboard.world`中的`uri`的路径为你自己的路径，才能正常加载出标识板。后续可以进行优化。
