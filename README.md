@@ -25,7 +25,25 @@ O4-O3（0 0 0.091）
 
 你也可以根据自己的需求进行调整。
 
+# 使用
+1. 启动仿真环境
+```shell
+roslaunch gimbal_structure_simulation gazebo.launch
+```
 
+2. 控制云台结构
+```shell
+rosrun gimbal_structure_simulation joint_control.py
+```
+当然你也可以直接使用以下命令来控制云台结构：
+
+```shell
+python scripts/joint_control.py
+```
+
+![Alt text](imgs/1.png)
+
+这里需要注意的是，在控制过程中，程序有时候只会控制一个轴进行旋转，你需要多运行几次（你可以通过置顶rviz中观察是否转动来确认）。
 
 TODO：
 - 你需要修改`worlds/signboard.world`中的`uri`的路径为你自己的路径
