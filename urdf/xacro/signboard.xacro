@@ -52,33 +52,6 @@
     <axis xyz="0 1 0"/> <!-- 绕y轴 -->
     <limit lower="-3.1415926" upper="3.1415926" effort="100" velocity="10"/> 
   </joint>
-
-
-  <!-- 4. 为两个关节分别添加transmission（供Gazebo控制） -->
-  <!-- 1. world_to_mid_joint的transmission（适配位置控制器） -->
-  <transmission name="root_to_low_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="root_to_low_joint">
-      <!-- 硬件接口改为位置接口，与position_controllers匹配 -->
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="root_to_low_motor">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <!-- 2. mid_to_root_joint的transmission（适配位置控制器） -->
-  <transmission name="low_to_high_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="low_to_high_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="low_to_high_motor">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
   <link name="base_link">
     <inertial>
       <mass value="0.01"/>
@@ -94,7 +67,7 @@
   </joint>
 
   <!-- 导入Velodyne雷达的宏定义 -->
-  <xacro:include filename="$(find velodyne_description)/urdf/HDL-32E.urdf.xacro" />
+  <xacro:include filename="$(find gimbal_structure_simulation)/urdf/velodyne_description/urdf/HDL-32E.urdf.xacro" />
 
   <!-- 放置雷达 -->
   <xacro:HDL-32E parent="base_link" name="velodyne1" topic="/points_raw1" hz="10" samples="775" lasers="500"
@@ -103,12 +76,6 @@
     <origin xyz="0 0 0" rpy="0 0 0" />
   </xacro:HDL-32E>
 
-<!-- 启动ros_control与Gazebo的接口，用于加载controller_manager -->
-<gazebo>
-  <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-    <!-- 可选：设置机器人名称（与模型名称一致） -->
-    <robotNamespace>/</robotNamespace>
-  </plugin>
-</gazebo>
+  <xacro:include filename="$(find gimbal_structure_simulation)/urdf/xacro/gazebo_config.gazebo.xacro"/>
 
 </robot>

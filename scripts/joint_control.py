@@ -29,7 +29,7 @@ def main():
     rospy.init_node('joint_sequence_controller')
     
     # 1. 控制Z轴旋转（root_to_low_joint）
-    z_target_deg = 40.0  # 目标角度（度）
+    z_target_deg = 0.0  # 目标角度（度）
     z_target_rad = angle_to_radian(z_target_deg)
     rospy.loginfo(f"开始控制Z轴：{z_target_deg}度")
     publish_command(
@@ -40,7 +40,7 @@ def main():
     # 等待1秒（可选）
     rospy.sleep(1.0)
     # 2. 控制Y轴旋转（low_to_high_joint）
-    y_target_deg = 40.0  # 目标角度（度）
+    y_target_deg = 0.0  # 目标角度（度）
     y_target_rad = angle_to_radian(y_target_deg)
     rospy.loginfo(f"开始控制Y轴：{y_target_deg}度")
     publish_command(
